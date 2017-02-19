@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.params=row\ col
+comment0.target=Tetris(int,\ int)
+comment0.text=\n\ The\ constructor\ for\ the\ Tetris\ class\ which\ takes\ in\ a\ row\ and\ a\ column\n\ number.\n\ \n\ @param\ row\ Specifies\ the\ number\ of\ rows\ in\ this\ tetris\ game.\n\ @param\ col\ Specifies\ the\ number\ of\ columns\ in\ this\ tetris\ game.\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ main\ method\ which\ creates\ a\ tetris\ object\ to\ start\ the\ game.\n\ \n\ @param\ args\ The\ arguments.\n
+comment2.params=
+comment2.target=void\ upPressed()
+comment2.text=\n\ The\ tetrad\ is\ rotated.\n
+comment3.params=
+comment3.target=void\ downPressed()
+comment3.text=\n\ The\ tetrad\ is\ translated\ down\ by\ one.\n
+comment4.params=
+comment4.target=void\ leftPressed()
+comment4.text=\n\ The\ tetrad\ is\ translated\ to\ the\ left\ by\ one.\n
+comment5.params=
+comment5.target=void\ rightPressed()
+comment5.text=\n\ The\ tetrad\ is\ translated\ to\ the\ right\ by\ one.\n
+comment6.params=
+comment6.target=void\ play()
+comment6.text=\n\ Plays\ a\ game\ of\ tetris\ and\ stops\ when\ the\ termination\ condition\ is\ met.\n
+comment7.params=row
+comment7.target=boolean\ isCompleteRow(int)
+comment7.text=\n\ precondition\:\ 0\ <\=\ row\ <\ number\ of\ rows\ Checks\ if\ a\ given\ row\ is\ complete\n\ meaning\ there\ are\ blocks\ contained\ in\ every\ column\ with\ the\ given\ row\n\ number.\n\ \n\ @param\ row\ Specifies\ the\ row\ number\ which\ is\ being\ checked\ for\n\ completion.\n\ @return\ Returns\ true\ if\ every\ cell\ in\ the\ given\ row\ is\ occupied;\ eturns\n\ false\ otherwise.\n
+comment8.params=row
+comment8.target=void\ clearRow(int)
+comment8.text=\n\ precondition\:\ 0\ <\=\ row\ <\ number\ of\ rows;\ given\ row\ is\ full\ of\ blocks\n\ postcondition\:\ Every\ block\ in\ the\ given\ row\ has\ been\ removed,\ andevery\n\ block\ above\ row\ has\ been\ moved\ down\ one\ row.\n\ \n\ @param\ row\ Specifies\ the\ row\ from\ which\ all\ the\ blocks\ will\ be\ removed.\n
+comment9.params=
+comment9.target=void\ clearCompletedRows()
+comment9.text=\n\ Goes\ through\ each\ row\ and\ if\ any\ given\ row\ is\ complete\ this\ method\ then\n\ clears\ the\ appropriate\ row.\ Postcondition\:\ all\ completed\ rows\ have\ been\n\ cleared.\n
+numComments=10

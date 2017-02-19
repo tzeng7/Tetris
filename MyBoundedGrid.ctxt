@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=rows\ cols
+comment0.target=MyBoundedGrid(int,\ int)
+comment0.text=\n\ Constructs\ an\ empty\ MyBoundedGrid\ with\ the\ given\ dimensions.\n\ @Precondition\:\ \ rows\ >\ 0\ and\ cols\ >\ 0.)\n\ @param\ rows\ number\ of\ rows\n\ @param\ cols\ number\ of\ cols\n
+comment1.params=
+comment1.target=int\ getNumRows()
+comment1.text=\n\ returns\ the\ number\ of\ rows\n\ @return\ number\ of\ rows\n
+comment2.params=
+comment2.target=int\ getNumCols()
+comment2.text=\n\ returns\ the\ number\ of\ columns\n\ @return\ the\ number\ of\ columns\n
+comment3.params=loc
+comment3.target=boolean\ isValid(Location)
+comment3.text=\n\ @return\ true\ if\ loc\ is\ valid\ in\ this\ grid,\ false\ otherwise\n\ @precondition\:\ \ loc\ is\ not\ null\n\ @param\ loc\ new\ location\n
+comment4.params=loc
+comment4.target=java.lang.Object\ get(Location)
+comment4.text=\n\ @return\ \ \ the\ object\ at\ location\ loc\ or\ null\ if\ the\ location\ is\ unoccupied)\n\ @precondition\:\ \ loc\ is\ valid\ in\ this\ gridon\n\ @param\ \ \ loc\ the\ locati\n
+comment5.params=loc\ obj
+comment5.target=java.lang.Object\ put(Location,\ java.lang.Object)
+comment5.text=\n\ puts\ obj\ at\ location\ loc\ in\ this\ grid\ and\ \n\ returns\ the\ object\ previously\ at\ that\ location\ (or\ null\ if\ the\n\ location\ is\ unoccupied)\n\ @precondition\:\ \ loc\ is\ valid\ in\ this\ grid\n\ @param\ \ \ loc\ the\ location\n\ @param\ \ \ obj\ the\ object\n\ @return\ \ the\ temp\ object\n
+comment6.params=loc
+comment6.target=java.lang.Object\ remove(Location)
+comment6.text=\n\ removes\ the\ object\ at\ location\ loc\ from\ this\ grid\ and\n\ returns\ the\ object\ that\ was\ removed\ (or\ null\ if\ the\n\ location\ is\ unoccupied\n\ @precondition\:\ \ loc\ is\ valid\ in\ this\ grid\n\ @param\ \ \ loc\ the\ location\n\ @return\ temp\ object\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getOccupiedLocations()
+comment7.text=\n\ @return\ temp\ an\ array\ list\ of\ all\ occupied\ locations\ in\ this\ grid\n
+numComments=8

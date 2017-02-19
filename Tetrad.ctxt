@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=grid\ locs
+comment0.target=void\ addToLocations(MyBoundedGrid,\ Location[])
+comment0.text=\n\ Adds\ the\ blocks\ on\ the\ given\ grid\ to\ the\ given\ array\ of\ locations.\n\ Precondition\:\ locs\ is\ an\ array\ of\ location\ objects\ of\ length\ 4.\n\ \n\ @param\ grid\ Specifies\ the\ grid\ where\ the\ blocks\ will\ be\ placed\n\ @param\ locs\ Specifies\ the\ array\ of\ locations\ where\ the\ blocks\ will\ be\n\ added\ to.\n
+comment1.params=grid
+comment1.target=Tetrad(MyBoundedGrid)
+comment1.text=\n\ The\ constructor\ for\ a\ Tetrad\ object\ which\ takes\ in\ a\ grid\ and\ adds\ a\n\ random\ one\ of\ the\ seven\ tetrad\ objects.\n\ \n\ @param\ grid\ The\ grid\ that\ the\ objects\ will\ be\ added\ to.\n
+comment2.params=
+comment2.target=Location[]\ removeBlocks()
+comment2.text=\n\ Removes\ all\ the\ blocks\ in\ this\ tetrad\ object's\ internal\ array,\ adds\ the\n\ locations\ of\ those\ block\ object\ to\ an\ array\ and\ returns\ that\ array.\n\ precondition\:\ Blocks\ are\ in\ the\ grid.\ Postcondition\:\ Returns\ old\n\ locations\ of\ blocks.\ Blocks\ have\ been\ removed\ from\ grid.\n\ \n\ @return\ The\ location\ of\ all\ the\ block\ objects\ that\ were\ removed\ from\ the\n\ grid.\n
+comment3.params=grid\ locs
+comment3.target=boolean\ areEmpty(MyBoundedGrid,\ Location[])
+comment3.text=\n\ Checks\ if\ all\ the\ locations\ contained\ in\ the\ given\ array\ are\ valid\ in\ the\n\ grid\ and\ are\ also\ unoccupied.\ Returns\ true\ if\ each\ of\ the\ locs\ in\ the\n\ given\ Location\ array\ is\ valid\ and\ empty\ in\ the\ grid;\ false\ otherwhise.\n\ \n\ @param\ grid\ The\ grid\ which\ will\ be\ checked\ for\ the\ given\ array\ of\n\ locations.\n\ @param\ locs\ The\ array\ of\ location\ objects\ that\ will\ be\ checked\ for\n\ validity.\n\ @return\ true\ if\ each\ of\ the\ locs\ in\ the\ given\ Location\ array\ is\ valid\ and\n\ empty\ in\ the\ grid;\ false\ otherwhise.\n
+comment4.params=
+comment4.target=boolean\ rotate()
+comment4.text=\n\ Attempts\ to\ rotate\ this\ tetrad\ clockwise\ by\ 90\ degrees\ about\ its\ center,\n\ if\ necessary\ positions\ are\ empty;\ returns\ true\ if\ successful\ and\ false\n\ otherwhise.\n\ \n\ @return\ true\ if\ the\ attempt\ to\ rotate\ this\ tetrad\ clockwise\ by\ 90\ degrees\n\ about\ its\ center\ is\ successful\ and\ false\ otherwhise.\n
+comment5.params=deltaRow\ deltaCol
+comment5.target=boolean\ translate(int,\ int)
+comment5.text=\n\ Attempts\ to\ move\ this\ tetrad\ deltaRow\ rows\ down\ and\ deltaCol\ columns\ to\n\ the\ righ,\ if\ those\ positions\ are\ valid\ and\ empty,\ this\ method\ returns\n\ true.\ Otherwhise\ returns\ false.\ If\ true\ is\ returned\ than\ a\ change\ in\ this\n\ tetrad's\ location\ takes\ place.\n\ \n\ @param\ deltaRow\ The\ number\ of\ rows\ down\ that\ this\ tetrad\ is\ going\ to\n\ translated.\n\ @param\ deltaCol\ The\ number\ of\ columns\ to\ the\ right\ that\ this\ tetrad\ is\n\ going\ to\ be\ translated.\n\ @return\ true\ if\ the\ attempt\ to\ move\ the\ tetrad\ down\ is\ successful;\ false\n\ otherwhise.\n
+numComments=6
